@@ -65,7 +65,7 @@ Returns the current WhatsApp calling permission for one sender and one customer 
 <RequestExample>
 
 ```bash cURL
-curl -X GET "https://app.autocalls.ai/api/user/whatsapp/voice/permission?sender_id=12&recipient_phone=%2B40711222333" \
+curl -X GET "https://login.houseofvoice.ai/api/user/whatsapp/voice/permission?sender_id=12&recipient_phone=%2B40711222333" \
   -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
@@ -76,7 +76,7 @@ const params = new URLSearchParams({
 });
 
 const response = await fetch(
-  `https://app.autocalls.ai/api/user/whatsapp/voice/permission?${params}`,
+  `https://login.houseofvoice.ai/api/user/whatsapp/voice/permission?${params}`,
   { headers: { Authorization: 'Bearer YOUR_API_KEY' } }
 );
 
@@ -87,7 +87,7 @@ console.log(await response.json());
 import requests
 
 response = requests.get(
-    'https://app.autocalls.ai/api/user/whatsapp/voice/permission',
+    'https://login.houseofvoice.ai/api/user/whatsapp/voice/permission',
     headers={'Authorization': 'Bearer YOUR_API_KEY'},
     params={'sender_id': 12, 'recipient_phone': '+40711222333'},
 )

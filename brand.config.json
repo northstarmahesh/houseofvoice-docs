@@ -1,9 +1,9 @@
 {
-  "name": "YOUR_BRAND_NAME",
-  "primaryColor": "#3B82F6",
-  "websiteUrl": "https://your-website.com",
-  "dashboardUrl": "https://app.your-website.com",
-  "supportUrl": "https://your-website.com/contact",
+  "name": "House of Voice",
+  "primaryColor": "#E07A5F",
+  "websiteUrl": "https://houseofvoice.ai",
+  "dashboardUrl": "https://login.houseofvoice.ai",
+  "supportUrl": "https://houseofvoice.ai/#contact-form",
   "linkedinUrl": "",
-  "ogImageUrl": ""
+  "ogImageUrl": "https://houseofvoice.ai/assets/og-image.png"
 }

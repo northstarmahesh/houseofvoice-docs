@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <!-- HOUSE of -->
+  <text x="0" y="28" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="0.25em" fill="#0A0A0A">
+    HOUSE <tspan fill="#666666" font-weight="400">of</tspan>
+  </text>
+  <!-- VOICE -->
+  <text x="0" y="65" font-family="'Playfair Display', Georgia, serif" font-size="48" font-weight="400" fill="#0A0A0A">VOICE</text>
+  <!-- Accent line -->
+  <rect x="0" y="72" width="40" height="2" rx="1" fill="#E07A5F"/>
+</svg>

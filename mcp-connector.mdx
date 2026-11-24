@@ -4,7 +4,7 @@ icon: "plug"
 description: "Build and run your AI phone agents straight from Claude or ChatGPT — over a secure, one-time OAuth connection."
 ---
 
-The Autocalls connector lets you **build and operate your AI phone agents straight from Claude or
+The House of Voice connector lets you **build and operate your AI phone agents straight from Claude or
 ChatGPT**. Instead of clicking through the dashboard, you just describe what you want — and your AI
 assistant does it on your account:
 
@@ -14,29 +14,29 @@ assistant does it on your account:
 
 <Note>
   It's a **remote MCP server** secured with **OAuth 2.0**. You connect once, sign in to approve, and
-  every action stays scoped to **your own Autocalls account** — the connector only ever sees and
+  every action stays scoped to **your own House of Voice account** — the connector only ever sees and
   changes your data.
 </Note>
 
 ## What you can do
 
 <CardGroup cols={2}>
-  <Card title="Build & refine assistants" icon="robot" href="/ai-assistants/what-is-ai-assistant" color="#06df4b">
+  <Card title="Build & refine assistants" icon="robot" href="/ai-assistants/what-is-ai-assistant" color="#E07A5F">
     Inbound and outbound: system prompt, voice, language, model and call behaviour. Attach
     knowledgebases (your documents) and mid-call tools (live API lookups during a call).
   </Card>
-  <Card title="Run campaigns" icon="bullhorn" href="/campaigns/index" color="#06df4b">
+  <Card title="Run campaigns" icon="bullhorn" href="/campaigns/index" color="#E07A5F">
     Create call, WhatsApp, or SMS campaigns, add leads, set schedule windows, and start or pause them.
   </Card>
-  <Card title="Review & improve" icon="magnifying-glass-chart" href="/outbound-calls/overview" color="#06df4b">
+  <Card title="Review & improve" icon="magnifying-glass-chart" href="/outbound-calls/overview" color="#E07A5F">
     List calls, read full transcripts and post-call evaluations, then update the assistant or its
     tools — a complete build → review → improve loop.
   </Card>
-  <Card title="Manage your account" icon="gear" href="/api-reference/introduction" color="#06df4b">
+  <Card title="Manage your account" icon="gear" href="/api-reference/introduction" color="#E07A5F">
     Knowledgebases & documents, phone numbers & SIP trunks, WhatsApp senders & templates,
     conversations, folders, labels, API keys and your blacklist.
   </Card>
-  <Card title="Build automations" icon="bolt" href="/automation-platform/introduction" color="#06df4b">
+  <Card title="Build automations" icon="bolt" href="/automation-platform/introduction" color="#E07A5F">
     Describe what should happen around your calls — follow-ups, spreadsheet logging, callbacks,
     lead intake — and it's built from a ready-made template or from scratch, proven with a real
     test run, and attached to your assistant. Debug failed runs, retry them from the failed step,
@@ -50,7 +50,7 @@ secrets (e.g. auth tokens on your mid-call tools) are **masked** in responses.
 
 ## Before you start
 
-- An **Autocalls account** at [app.autocalls.ai](https://app.autocalls.ai) — or your white-label
+- A **House of Voice account** at [login.houseofvoice.ai](https://login.houseofvoice.ai) — or your white-label
   provider's domain.
 - An **active plan** for the features you use (some actions consume call minutes or chat credits).
 
@@ -60,7 +60,7 @@ This is the secure address Claude and ChatGPT use to reach your account. Copy it
 during setup, then sign in to approve.
 
 ```
-https://app.autocalls.ai/mcp
+https://login.houseofvoice.ai/mcp
 ```
 
 <Info>
@@ -92,17 +92,17 @@ https://app.autocalls.ai/mcp
         </Frame>
       </Step>
       <Step title="Name it and paste your link">
-        Type any name (e.g. _Autocalls_), paste your connection link into **Remote MCP server URL**,
+        Type any name (e.g. _House of Voice_), paste your connection link into **Remote MCP server URL**,
         leave the OAuth fields empty, then click **Add**.
         <Frame>
-          <img src="/resources/mcp/claude-4.png" alt="Paste the Autocalls MCP URL in Claude" />
+          <img src="/resources/mcp/claude-4.png" alt="Paste the House of Voice MCP URL in Claude" />
         </Frame>
       </Step>
       <Step title="Sign in and approve">
-        Log in to your Autocalls account and approve. Your tools then appear in the list — you're
+        Log in to your House of Voice account and approve. Your tools then appear in the list — you're
         connected.
         <Frame>
-          <img src="/resources/mcp/claude-5.png" alt="Sign in and approve the Autocalls connector in Claude" />
+          <img src="/resources/mcp/claude-5.png" alt="Sign in and approve the House of Voice connector in Claude" />
         </Frame>
       </Step>
     </Steps>
@@ -142,9 +142,9 @@ https://app.autocalls.ai/mcp
       <Step title="Paste your link and create">
         Give it a name, paste your connection link into the **Server URL** field, set
         **Authentication** to **OAuth**, tick _"I understand and want to continue"_, then **Create**.
-        Sign in to your Autocalls account and approve.
+        Sign in to your House of Voice account and approve.
         <Frame>
-          <img src="/resources/mcp/chatgpt-5.png" alt="Paste the Autocalls MCP URL and create the app in ChatGPT" />
+          <img src="/resources/mcp/chatgpt-5.png" alt="Paste the House of Voice MCP URL and create the app in ChatGPT" />
         </Frame>
       </Step>
     </Steps>
@@ -153,7 +153,7 @@ https://app.autocalls.ai/mcp
 
 <Tip>
   Once the connector is listed in the Claude and ChatGPT directories, you'll also be able to add it in
-  one click by searching for **Autocalls** under Settings → Connectors — no manual URL needed.
+  one click by searching for **House of Voice** under Settings → Connectors — no manual URL needed.
 </Tip>
 
 ## Try it
@@ -161,19 +161,19 @@ https://app.autocalls.ai/mcp
 Start a new chat in Claude or ChatGPT and ask, for example:
 
 <CardGroup cols={2}>
-  <Card title="Build" icon="wand-magic-sparkles" color="#06df4b">
+  <Card title="Build" icon="wand-magic-sparkles" color="#E07A5F">
     "Create an inbound receptionist for my dental clinic that books appointments and answers FAQs."
   </Card>
-  <Card title="Improve" icon="arrow-trend-up" color="#06df4b">
+  <Card title="Improve" icon="arrow-trend-up" color="#E07A5F">
     "Read my last 5 calls and tell me what my assistant got wrong."
   </Card>
-  <Card title="Integrate" icon="plug-circle-bolt" color="#06df4b">
+  <Card title="Integrate" icon="plug-circle-bolt" color="#E07A5F">
     "Create a mid-call tool that looks up an order by number from our API."
   </Card>
-  <Card title="Run" icon="bullhorn" color="#06df4b">
+  <Card title="Run" icon="bullhorn" color="#E07A5F">
     "Set up an outbound campaign for this week's leads and start it."
   </Card>
-  <Card title="Automate" icon="bolt" color="#06df4b">
+  <Card title="Automate" icon="bolt" color="#E07A5F">
     "After every call, save qualified leads to my Google Sheet and email me when a caller asks for
     a callback."
   </Card>
@@ -184,8 +184,8 @@ Start a new chat in Claude or ChatGPT and ask, for example:
 - **OAuth 2.0** with a branded consent screen — no API key is ever pasted into the chat client.
 - **Scoped to your account** — the connector can only see and change your own data.
 - **Secrets masked** — auth tokens stored on your tools are never returned in plain text.
-- **No chat-history harvesting** — the connector acts only on your Autocalls resources.
-- Privacy policy: [autocalls.ai/privacy-policy](https://autocalls.ai/privacy-policy).
+- **No chat-history harvesting** — the connector acts only on your House of Voice resources.
+- Privacy policy: [houseofvoice.ai/privacy](https://houseofvoice.ai/privacy).
 
 ## FAQ
 
@@ -196,7 +196,7 @@ Start a new chat in Claude or ChatGPT and ask, for example:
     same: add a custom connector and paste your connection link.
   </Accordion>
   <Accordion title="Do I need an API key?">
-    No. Connection is handled by **OAuth** — you simply sign in to your Autocalls account and approve.
+    No. Connection is handled by **OAuth** — you simply sign in to your House of Voice account and approve.
     No key is pasted into the chat app.
   </Accordion>
   <Accordion title="Is it safe to connect?">
@@ -226,5 +226,5 @@ Start a new chat in Claude or ChatGPT and ask, for example:
 
 ## Support
 
-Questions? Email [contact@autocalls.ai](mailto:contact@autocalls.ai) or browse the rest of the
-[documentation](/introduction/what-is-autocalls).
+Questions? Email [hello@houseofvoice.ai](mailto:hello@houseofvoice.ai) or browse the rest of the
+[documentation](/introduction/what-is-platform).
