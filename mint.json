@@ -1,18 +1,18 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Autocalls",
+  "name": "House of Voice",
   "logo": {
     "dark": "/resources/logo/dark.png",
     "light": "/resources/logo/light.png"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#06df4b",
-    "light": "#06df4b",
-    "dark": "#65fe50",
+    "primary": "#E07A5F",
+    "light": "#E07A5F",
+    "dark": "#E07A5F",
     "anchors": {
-      "from": "#01df4a",
-      "to": "#65fe50"
+      "from": "#E07A5F",
+      "to": "#E07A5F"
     }
   },
   "topAnchor": {
@@ -25,16 +25,16 @@
   "topbarLinks": [
     {
       "name": "Home",
-      "url": "https://autocalls.ai"
+      "url": "https://houseofvoice.ai"
     },
     {
       "name": "Support",
-      "url": "https://autocalls.ai/contact"
+      "url": "https://houseofvoice.ai/#contact-form"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://app.autocalls.ai"
+    "url": "https://login.houseofvoice.ai"
   },
   "anchors": [
     {
@@ -60,7 +60,7 @@
     {
       "group": "Introduction",
       "pages": [
-        "introduction/what-is-autocalls",
+        "introduction/what-is-platform",
         "introduction/how-it-works",
         "introduction/key-terminology"
       ]
@@ -449,7 +449,7 @@
     {
       "group": "Calls Related",
       "pages": [
-        "automation-platform/calls-related/autocalls-tool",
+        "automation-platform/calls-related/platform-tool",
         "automation-platform/calls-related/common-integrations",
         "automation-platform/calls-related/sms-capabilities"
       ]
@@ -461,11 +461,8 @@
       ]
     }
   ],
-  "footerSocials": {
-    "linkedin": "https://www.linkedin.com/company/autocalls-ai"
-  },
   "api": {
-    "baseUrl": "https://app.autocalls.ai/api/",
+    "baseUrl": "https://login.houseofvoice.ai/api/",
     "auth": {
       "method": "bearer"
     }
